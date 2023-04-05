@@ -1,0 +1,87 @@
+<h1 id="whispergui">WhisperGUI</h1>
+<iframe src="https://www.youtube.com/embed/jL5hnx4qB_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p><img src="img/WhisperGUI.png" alt="pic"></p>
+
+<blockquote>
+    <div class="descriptionGrid">
+        <i class="fa fa-clock-o icon"></i><span class="title">計畫時程:</span><span class="content">2023.1.27</span>
+
+        <i class="fa fa-user-circle icon"></i><span class="title">委託單位:</span><span class="content">Side Project</span>
+
+        <i class="fa fa-users icon"></i><span class="title">計畫人員:</span>
+        <span class="content">顏群學</span>
+
+        <i class="fa fa-file icon"></i><span class="title">計畫內容:</span><span class="content">利用Tkinter簡單製作一個使用Whisper的GUI以及快速安裝包，使得使用更為方便。</span>
+
+        <i class="fa fa-code icon"></i><span class="title">使用技術:</span><span class="content">Python、Tkinter</span>
+
+        <i class="fa fa-link icon"></i><span class="title">GitHub連結:</span>
+        <span class="content"><a href="https://github.com/ADT109119/WhisperGUI" target="_blank">https://github.com/ADT109119/WhisperGUI</a></span>
+
+    </div>        
+</blockquote>
+<blockquote>
+<p>此專案是我用2個小時簡單製作的WhisperGUI+快速安裝包，可以讓我們在使用Whisper時快速操作，無須打指令，以及讓懶得手動裝一堆東西的人可以快速的使用(Python以及FFmpeg還是要自己裝)。</p>
+</blockquote>
+<p><a href="https://github.com/openai/whisper">OpenAI Whisper</a></p>
+<h2 id="專案用途">專案用途</h2>
+<p>此專案的作用</p>
+<p>在於方便大家可以快速設定好的Whisper執行環境</p>
+<p>以及讓多數使用者</p>
+<p>可以僅需透過此GUI介面操作使用</p>
+<p>而無須打指令</p>
+<h2 id="功能">功能</h2>
+<p>目前支援操作以下幾種Whisper的功能</p>
+<ol>
+<li>選擇音檔</li>
+<li>選擇輸出資料夾</li>
+<li>選擇使用模型</li>
+<li>選擇辨識語言</li>
+<li>選擇使用裝置(CPU、指定顯卡)</li>
+<li>將字幕翻為英文</li>
+</ol>
+<h2 id="畫面">畫面</h2>
+<blockquote>
+<p>操作示意 選擇檔案&gt;選擇跑模型的裝置&gt;執行完成</p>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/106337749/218459288-0fd24ee4-4ed6-49c9-a3f4-1fd97976a89d.png" alt="選模型">
+<img src="https://user-images.githubusercontent.com/106337749/218459323-faaf2d8d-0a68-4bfc-a6e3-62e45b94ad0f.png" alt="選裝置">
+<img src="https://user-images.githubusercontent.com/106337749/218460468-a801fe68-0f01-479d-a4bd-4f04eea1af41.png" alt="執行完成"></p>
+<h2 id="安裝">安裝</h2>
+<blockquote>
+<p>請先自行安裝Python 3.7以上版本，以及FFmpeg</p>
+</blockquote>
+<p>以下將會引導你如何在你的電腦上執行此專案。</p>
+<h3 id="取得專案">取得專案</h3>
+<pre><code class="language-bash">git clone git@github.com/ADT109119/WhisperGUI.git
+</code></pre>
+<p><strong>或是直接在GitHub頁面點Download ZIP</strong></p>
+<h3 id="確認電腦已有pyhton以及ffmpeg">確認電腦已有Pyhton以及FFmpeg</h3>
+<pre><code class="language-bash">python --version
+ffmpeg -version
+</code></pre>
+<h3 id="執行setupbat">執行setup.bat</h3>
+<p>請直接執行資料夾中的setup.bat，等待虛擬環境完成設置</p>
+<h3 id="執行專案">執行專案</h3>
+<p>請直接執行資料夾中的run.bat，若無報錯，將可以看到GUI介面</p>
+<h2 id="資料夾說明">資料夾說明</h2>
+<ul>
+<li>model - 模型存放處</li>
+<li>output - 預設輸出資料夾</li>
+<li>venv - 虛擬環境資料夾
+...</li>
+</ul>
+<h2 id="專案技術">專案技術</h2>
+<ul>
+<li>Python</li>
+<li>tkinter</li>
+<li>ttkbootstrap</li>
+</ul>
+<h2 id="聯絡作者">聯絡作者</h2>
+<p>你可以透過以下方式與我聯絡</p>
+<ul>
+<li><a href="mailto:2.jerry32262686@gmail.com">Email: 2.jerry32262686@gmail.com</a>
+...</li>
+</ul>
+<h2 id="license">License</h2>
+<p>This project is under the MIT License. See <a href="https://github.com/ADT109119/WhisperGUI/blob/main/LICENSE">LICENSE</a> for further details.</p>
